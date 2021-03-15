@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloqueio de país/ip</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="title">::GEO::</h1>
+            <img class="block-image" src="img/big-no-waiting-sign-removebg-preview.png">
+            <p class="text-info -bottom">O seu endereço de IP ou talvez o pais de onde você está acessando está bloqueado para acessar esse site.</p>
+            <div class="logo-container">
+                <img src="img/ae393226ba-removebg-preview.png" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f7f7f7;
+        }
+        .container{
+            max-width: 1200px;
+            margin: 90px auto;
+        }
+        .row{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .title{
+            color: #393939;
+            letter-spacing: 2px;
+            font-size: 3rem;
+            text-align: center;
+        }
+        .block-image{
+            margin: 0 auto;
+            display: block;
+            max-width: 300px;
+        }
+        .text-info{
+            font-weight: 400;
+            letter-spacing: 1px;
+            display: flex;
+            justify-content: center;
+            line-height: 1.5;
+            font-size: 18px;
+        }
+        .text-info.-bottom{
+            margin-bottom: 5px;
+        }
+        .logo-container img{
+            display: block;
+            max-width: 100%;
+            margin: 40px auto;
+            width: 250px;
+        }
+    </style>
+</body>
+</html>
